@@ -1,0 +1,38 @@
+.superauto-steps{
+    max-width: 1400px;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    margin: auto;
+    padding: 0 14px;
+    text-align: center;
+    align-content: center;
+}
+
+.superauto-steps h1{
+    margin-bottom: 14px;
+}
+
+.superauto-steps h1 + p{
+    margin-top: 0;
+}
+
+.superauto-steps .grid-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.superauto-steps ul li{
+    list-style-type: none;
+}
+
+.superauto-steps .grid-images li img{
+    width: 125px;
+}
