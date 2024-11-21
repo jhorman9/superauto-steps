@@ -7,33 +7,43 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="superauto-steps" id="step1">
+    <div class="superauto-steps" id="step1" style="display: none;">
         <div class="step-title-top">
-            <h1>FINANCIAR UN CARRO ES FÁCIL CON SUPER AUTOS PANAMA</h1>
-            <p>Responde las siguientes preguntas y descubre si aplicas a un financiamiento con nuestros asociados.</p>
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
         </div>
         <div class="step-main">
-            <h2>¿A qué tipo de financiamiento desea aplicar?</h2>
+            <h2>¿Qué tipo de financiamiento se ajusta a sus planes?</h2>
             <ul class="grid-images">
-                <li onclick="step(2)">
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Asalariado</p>
+                <li onclick="step(2)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Asalariado</h3>
                 </li>
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Independiente</p>
+                <li onclick="step(10)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/independiente-img.jpg" alt=""><br>
+                    </div>                        
+                    <h3 class="sicon-btn">Independiente</h3>
                 </li>
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Taxi</p>
+                <li onclick="step(12)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/taxista-img.jpg" alt=""><br>
+                    </div>  
+                    <h3 class="sicon-btn">Taxi</h3>
                 </li>
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Colegial</p>
+                <li onclick="step(14)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/transpoprte-escolar-img.jpg" alt=""><br>
+                    </div>                      
+                    <h3 class="sicon-btn">Colegial</h3>
                 </li>
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Uber</p>
+                <li onclick="step(16)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/uber-img.webp" alt=""><br>
+                    </div>                      
+                    <h3 class="sicon-btn">Uber</h3>
                 </li>
             </ul>
         </div>
@@ -42,156 +52,275 @@
     <!-- LOGICA DE ASALARIADO -->
     <div class="superauto-steps" style="display: none;" id="step2">
         <div class="step-title-top">
-            <h1>FINANCIAR UN CARRO ES FÁCIL CON SUPER AUTOS PANAMA</h1>
-            <p>Responde las siguientes preguntas y descubre si aplicas a un financiamiento con nuestros asociados.</p>
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
         </div>
         <div class="step-main">
             <h2>¿Cúanto es su salario + comisiones reflejado en la ficha de trabajo?</h2>
             <ul class="grid-images">
-                <li onclick="step(100)">
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Menos de 550</p>
+                <li onclick="step(100)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Menos de 550</h3>
                 </li>
-                <li onclick="step(3)">
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>550 o más</p>
+                <li onclick="step(3)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">550 o más</h3>
                 </li>
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>600 o más</p>
+                <li onclick="step(5)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">600 o más</h3>
                 </li>
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>700 o más</p>
+                <li onclick="step(8)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">700 o más</h3>
                 </li>
             </ul>
         </div>
-        <div class="back-toggle" onclick="step(1)">
-            Regresar al paso anterior
+        <div class="back-toggle">
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
         </div>
     </div>
 
     <div class="superauto-steps" style="display: none;" id="step3">
         <div class="step-title-top">
-            <h1>FINANCIAR UN CARRO ES FÁCIL CON SUPER AUTOS PANAMA</h1>
-            <p>Responde las siguientes preguntas y descubre si aplicas a un financiamiento con nuestros asociados.</p>
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
         </div>
         <div class="step-main">
             <h2>Tiene usted 2 años de estar laborando y al menos 6 meses de continuidad</h2>
             <ul class="grid-images">
-                <li onclick="step(4)">
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Sí</p>
+                <li onclick="step(4)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Sí</h3>
                 </li>
-                <li onclick="step(100)">
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>No</p>
+                <li onclick="step(100)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">No</h3>
                 </li>
             </ul>
         </div>
-        <div class="back-toggle" onclick="step(2)">
-            Regresar al paso anterior
+        <div class="back-toggle">
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
         </div>
     </div>
 
     <div class="superauto-steps" style="display: none;" id="step4">
         <div class="step-title-top">
-            <h1>FINANCIAR UN CARRO ES FÁCIL CON SUPER AUTOS PANAMA</h1>
-            <p>Responde las siguientes preguntas y descubre si aplicas a un financiamiento con nuestros asociados.</p>
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
         </div>
         <div class="step-main">
             <h2>¿Usted cuenta con el abono del 20% del auto que le interesa?</h2>
             <ul class="grid-images">
-                <li onclick="step(99)">
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Sí</p>
+                <li onclick="step(99)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Sí</h3>
                 </li>
-                <li onclick="step(100)">
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>No</p>
+                <li onclick="step(100)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">No</h3>
                 </li>
             </ul>
         </div>
         <div class="back-toggle">
-            Regresar al paso anterior
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
         </div>
     </div>
 
     <div class="superauto-steps" style="display: none;" id="step5">
         <div class="step-title-top">
-            <h1>FINANCIAR UN CARRO ES FÁCIL CON SUPER AUTOS PANAMA</h1>
-            <p>Responde las siguientes preguntas y descubre si aplicas a un financiamiento con nuestros asociados.</p>
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
         </div>
         <div class="step-main">
             <h2>Tiene usted 1 año de estar laborando y al menos 3 meses de continuidad</h2>
             <ul class="grid-images">
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Sí</p>
+                <li onclick="step(6)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Sí</h3>
                 </li>
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>No</p>
+                <li onclick="step(100)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">No</h3>
                 </li>
             </ul>
         </div>
         <div class="back-toggle">
-            Regresar al paso anterior
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
         </div>
     </div>
 
     <div class="superauto-steps" style="display: none;" id="step6">
         <div class="step-title-top">
-            <h1>FINANCIAR UN CARRO ES FÁCIL CON SUPER AUTOS PANAMA</h1>
-            <p>Responde las siguientes preguntas y descubre si aplicas a un financiamiento con nuestros asociados.</p>
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
         </div>
         <div class="step-main">
-            <h2>Tiene usted 1 año de estar laborando y al menos 3 meses de continuidad</h2>
+            <h2>¿Qué área usted reside?</h2>
             <ul class="grid-images">
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Sí</p>
+                <li onclick="step(7)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Panama oeste o Interior</h3>
                 </li>
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>No</p>
+                <li onclick="step(100)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Panama Centro o este</h3>
                 </li>
             </ul>
         </div>
         <div class="back-toggle">
-            Regresar al paso anterior
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
+        </div>
+    </div>
+
+    <div class="superauto-steps" style="display: none;" id="step7">
+        <div class="step-title-top">
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
+        </div>
+        <div class="step-main">
+            <h2>¿Usted cuenta con el abono del 10% del auto que le interesa?</h2>
+            <ul class="grid-images">
+                <li onclick="step(99)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Sí</h3>
+                </li>
+                <li onclick="step(100)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">No</h3>
+                </li>
+            </ul>
+        </div>
+        <div class="back-toggle">
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
+        </div>
+    </div>
+
+
+    <div class="superauto-steps" style="display: none;" id="step8">
+        <div class="step-title-top">
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
+        </div>
+        <div class="step-main">
+            <h2>Tiene usted 1 año de estar laborando y al menos 3 meses de continuidad</h2>
+            <ul class="grid-images">
+                <li onclick="step(9)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Panama oeste o Interior</h3>
+                </li>
+                <li onclick="step(100)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Panama Centro o este</h3>
+                </li>
+            </ul>
+        </div>
+        <div class="back-toggle">
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
+        </div>
+    </div>
+
+    <div class="superauto-steps" style="display: none;" id="step9">
+        <div class="step-title-top">
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
+        </div>
+        <div class="step-main">
+            <h2>¿Cuenta usted con el abono del 10% del auto que le interesa?</h2>
+            <ul class="grid-images">
+                <li onclick="step(99)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Sí</h3>
+                </li>
+                <li onclick="step(100)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/asalariado-img.png" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">No</h3>
+                </li>
+            </ul>
+        </div>
+        <div class="back-toggle">
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
         </div>
     </div>
 
     <!-- LOGICA DE INDEPENDIENTE -->
 
-    <div class="superauto-steps" style="display: none;">
+    <div class="superauto-steps" style="display: none;" id="step10">
         <div class="step-title-top">
-            <h1>FINANCIAR UN CARRO ES FÁCIL CON SUPER AUTOS PANAMA</h1>
-            <p>Responde las siguientes preguntas y descubre si aplicas a un financiamiento con nuestros asociados.</p>
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
         </div>
         <div class="step-main">
             <h2>¿Usted cuenta con el abono del 30% del auto que le interesa?</h2>
             <ul class="grid-images">
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Sí</p>
+                <li onclick="step(11)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/independiente-img.jpg" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Sí</h3>
                 </li>
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>No</p>
+                <li onclick="step(100)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/independiente-img.jpg" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">No</h3>
                 </li>
             </ul>
         </div>
         <div class="back-toggle">
-            Regresar al paso anterior
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
         </div>
     </div>
 
-    <div class="superauto-steps" style="display: none;">
+    <div class="superauto-steps" style="display: none;" id="step11">
         <div class="step-title-top">
-            <h1>FINANCIAR UN CARRO ES FÁCIL CON SUPER AUTOS PANAMA</h1>
-            <p>Responde las siguientes preguntas y descubre si aplicas a un financiamiento con nuestros asociados.</p>
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
         </div>
         <div class="step-main">
             <h2>¿usted cuenta con uno de estos documentos?</h2>
@@ -201,159 +330,194 @@
                 <li>- facturas de compras y ventas de los últimos 6 meses</li>
             </ul>
             <ul class="grid-images">
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Sí</p>
+                <li onclick="step(99)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/independiente-img.jpg" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Sí</h3>
                 </li>
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>No</p>
+                <li onclick="step(100)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/independiente-img.jpg" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">No</h3>
                 </li>
             </ul>
         </div>
         <div class="back-toggle">
-            Regresar al paso anterior
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
         </div>
     </div>
 
     <!-- LOGICA DE TAXI -->
-    <div class="superauto-steps" style="display: none;">
+    <div class="superauto-steps" style="display: none;" id="step12">
         <div class="step-title-top">
-            <h1>FINANCIAR UN CARRO ES FÁCIL CON SUPER AUTOS PANAMA</h1>
-            <p>Responde las siguientes preguntas y descubre si aplicas a un financiamiento con nuestros asociados.</p>
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
         </div>
         <div class="step-main">
             <h2>¿Usted posee su cupo al día?</h2>
             <ul class="grid-images">
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Sí</p>
+                <li onclick="step(13)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/taxista-img.jpg" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Sí</h3>
                 </li>
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>No</p>
+                <li onclick="step(100)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/taxista-img.jpg" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">No</h3>
                 </li>
             </ul>
         </div>
         <div class="back-toggle">
-            Regresar al paso anterior
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
         </div>
     </div>
      
-    <div class="superauto-steps" style="display: none;">
+    <div class="superauto-steps" style="display: none;" id="step13">
         <div class="step-title-top">
-            <h1>FINANCIAR UN CARRO ES FÁCIL CON SUPER AUTOS PANAMA</h1>
-            <p>Responde las siguientes preguntas y descubre si aplicas a un financiamiento con nuestros asociados.</p>
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
         </div>
         <div class="step-main">
             <h2>¿Cuenta usted con el 50% de abono del carro de interés?</h2>
             <ul class="grid-images">
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Sí</p>
+                <li onclick="step(99)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/taxista-img.jpg" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Sí</h3>
                 </li>
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>No</p>
+                <li onclick="step(100)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/taxista-img.jpg" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">No</h3>
                 </li>
             </ul>
         </div>
         <div class="back-toggle">
-            Regresar al paso anterior
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
         </div>
     </div>
 
     <!-- LOGICA DE COLEGIAL -->
-    <div class="superauto-steps" style="display: none;">
+    <div class="superauto-steps" style="display: none;" id="step14">
         <div class="step-title-top">
-            <h1>FINANCIAR UN CARRO ES FÁCIL CON SUPER AUTOS PANAMA</h1>
-            <p>Responde las siguientes preguntas y descubre si aplicas a un financiamiento con nuestros asociados.</p>
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
         </div>
         <div class="step-main">
             <h2>¿Posee usted el cupo al día?</h2>
             <ul class="grid-images">
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Sí</p>
+                <li onclick="step(15)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/transpoprte-escolar-img.jpg" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Sí</h3>
                 </li>
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>No</p>
+                <li onclick="step(100)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/transpoprte-escolar-img.jpg" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">No</h3>
                 </li>
             </ul>
         </div>
         <div class="back-toggle">
-            Regresar al paso anterior
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
         </div>
     </div>
 
-    <div class="superauto-steps" style="display: none;">
+    <div class="superauto-steps" style="display: none;" id="step15">
         <div class="step-title-top">
-            <h1>FINANCIAR UN CARRO ES FÁCIL CON SUPER AUTOS PANAMA</h1>
-            <p>Responde las siguientes preguntas y descubre si aplicas a un financiamiento con nuestros asociados.</p>
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
         </div>
         <div class="step-main">
             <h2>¿Cuenta usted con el 30% de abono del carro de interés?</h2>
             <ul class="grid-images">
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Sí</p>
+                <li onclick="step(99)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/transpoprte-escolar-img.jpg" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Sí</h3>
                 </li>
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>No</p>
+                <li onclick="step(100)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/transpoprte-escolar-img.jpg" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">No</h3>
                 </li>
             </ul>
         </div>
         <div class="back-toggle">
-            Regresar al paso anterior
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
         </div>
     </div>
 
     <!-- LOGICA DE UBER -->
-    <div class="superauto-steps" style="display: none;">
+    <div class="superauto-steps" style="display: none;" id="step16">
         <div class="step-title-top">
-            <h1>FINANCIAR UN CARRO ES FÁCIL CON SUPER AUTOS PANAMA</h1>
-            <p>Responde las siguientes preguntas y descubre si aplicas a un financiamiento con nuestros asociados.</p>
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
         </div>
         <div class="step-main">
             <h2>¿Cuenta usted al menos 6 meses en el sistema UBER?</h2>
             <ul class="grid-images">
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Sí</p>
+                <li onclick="step(17)" class="box-histori"> 
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/uber-img.webp" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Sí</h3>
                 </li>
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>No</p>
+                <li onclick="step(100)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/uber-img.webp" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">No</h3>
                 </li>
             </ul>
         </div>
         <div class="back-toggle">
-            Regresar al paso anterior
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
         </div>
     </div>
 
-    <div class="superauto-steps" style="display: none;">
+    <div class="superauto-steps" style="display: none;" id="step17">
         <div class="step-title-top">
-            <h1>FINANCIAR UN CARRO ES FÁCIL CON SUPER AUTOS PANAMA</h1>
-            <p>Responde las siguientes preguntas y descubre si aplicas a un financiamiento con nuestros asociados.</p>
+            <h1 class="title">Financia tu auto con nosotros en sencillos pasos</h1>
+            <p class="subtitle">Verificate a continuacíon, y aplíca a cualquiera de nuestros financiamientos.</p>
         </div>
         <div class="step-main">
             <h2>¿Cuenta usted con el 30% de abono del carro de interés?</h2>
             <ul class="grid-images">
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>Sí</p>
+                <li onclick="step(99)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/uber-img.webp" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">Sí</h3>
                 </li>
-                <li>
-                    <img src="https://www.carspotpanama.com/wp-content/uploads/2018/07/asalariados-icon.png" alt=""><br>
-                    <p>No</p>
+                <li onclick="step(99)" class="box-histori">
+                    <div class="box-histori-img">
+                        <img class="img-icon" src="https://superautospanama.com/wp-content/uploads/2024/11/uber-img.webp" alt=""><br>
+                    </div>
+                    <h3 class="sicon-btn">No</h3>
                 </li>
             </ul>
         </div>
         <div class="back-toggle">
-            Regresar al paso anterior
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
         </div>
     </div>
 
@@ -365,17 +529,15 @@
     </div>
 
     <div class="superauto-steps" style="display: none;" id="step100">
-        <div class="step-title-top">
-            <h1>FINANCIAR UN CARRO ES FÁCIL CON SUPER AUTOS PANAMA</h1>
-            <p>Responde las siguientes preguntas y descubre si aplicas a un financiamiento con nuestros asociados.</p>
-        </div>
         <div class="step-main">
-            <h2>Gracias por aplicar</h2>
-            <p>Para obtener un financiamiento para su carro su caso debe ser verificado por uno de nuestros especialistas.</p>
-            <p>Por favor contáctenos a través del chat en vivo o llámenos al 236-0091 / 203-9417.</p>
+            <img class="logo-super-auto" src="//superautospanama.com/wp-content/uploads/2024/10/logo-super-autos.svg" alt="logo de super autos">
+            <h2 class="text-thanks">Gracias por aplicar</h2>
+            <p class="text-no-apply top">Para obtener un financiamiento para su carro su caso debe ser verificado por uno de nuestros especialistas.</p>
+            <p class="text-no-apply bottom">Por favor contáctenos a través del chat en vivo o llámenos al <span class="color-red-auto">236-0091 / 203-9417</span>.</p>
         </div>
         <div class="back-toggle">
-            Regresar al paso anterior
+            <img class="back-img" src="https://superautospanama.com/wp-content/uploads/2024/11/flecha-izquierda.png" alt="Atras">
+            Regresar
         </div>
     </div>
     <script src="./script.js"></script>
